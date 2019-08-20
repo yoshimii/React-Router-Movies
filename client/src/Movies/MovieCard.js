@@ -1,7 +1,10 @@
 import React from 'react';
+import { tsExternalModuleReference } from '@babel/types';
 
 const MovieCard = props => {
-  return;
+  return (
+    <h1>movies</h1>
+  );
 };
 
 export default MovieCard;
